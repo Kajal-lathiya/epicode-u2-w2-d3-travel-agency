@@ -1,34 +1,48 @@
 .bg-theme {
-  background-color: #11aaf6;
+    background-color: #11aaf6;
 }
+
 .btn-outline-success {
-  border-color: #f11a67;
-  color: #f11a67;
+    border-color: #f11a67;
+    color: #f11a67;
 }
+
 .fontColor {
-  color: white;
+    color: white;
 }
+
 .themeFontColor {
-  color: #f11a67;
+    color: #f11a67;
 }
+
 .bgcolor {
-  background-color: #f11a67;
+    background-color: #f11a67;
 }
+
 .btn-outline-success:hover {
-  background-color: #f11a67;
-  border-color: #f11a67;
+    background-color: #f11a67;
+    border-color: #f11a67;
 }
+
 .jumbotron {
-  background-image: url("../IMAGES/maldives.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  height: 100vh;
+    background-image: url("../IMAGES/maldives.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
 }
+
 .fontsize40 {
-  font-size: 40px;
+    font-size: 40px;
 }
+
 .rounded {
-  height: 25vh;
-  object-fit: cover;
+    height: 25vh;
+    object-fit: cover;
 }
+
+.dayh50 {
+    height: 50vh;
+}
+
+@media screen {}

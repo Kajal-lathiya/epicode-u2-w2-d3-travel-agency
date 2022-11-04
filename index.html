@@ -1,189 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel Agency</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
     <link rel="stylesheet" href="./CSS/styles.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <img
-        src="https://www.weloveholidays.co.za/wp-content/uploads/2018/09/WLH-Main-header-logo.png"
-        alt="light logo"
-        width="150px"
-        height="60px"
-      />
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+        <img src="https://www.weloveholidays.co.za/wp-content/uploads/2018/09/WLH-Main-header-logo.png" alt="light logo" width="150px" height="60px" />
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#dealWeek">Deal of the Week</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#summer">Welcome Summer</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#dealDay">Deal of the day</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#summer">Welcome Summer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#dealDay">Deal of the day</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
             Search
           </button>
-        </form>
+            </form>
     </nav>
 
     <div class="jumbotron bg-image d-flex flex-column bd-highlight   justify-content-center align-items-center">
         <div class="container d-flex flex-column text-white bd-highlight   justify-content-center align-items-center">
             <h3 class="p-2 bd-highlight font-weight-bolder font-italic">come with us</h3>
             <h1 class="p-2 bd-highlight font-weight-bolder fontsize40">Relex and enjoy.</h1>
-            <p class="p-2 bd-highlight font-weight-bolder">The world is a book and those who do not travel read only one page. 
+            <p class="p-2 bd-highlight font-weight-bolder">The world is a book and those who do not travel read only one page.
             </p>
-          </div>
-      </div>
-      
+        </div>
+    </div>
+
     <div class="container-fluid px-5">
-            <h3 class="font-weight-bolder themeFontColor" id="dealWeek">Deal of the Week</h3>
-      <div class="row mx-n1 mb-2 mb-3" >
-        <div class="col-sm-6 col-md-4 col-xl-3 px-1 mb-3 mb-sm-2 mb-md-0 mb-xl-2">
-            <img src="./IMAGES/image1.jpg" alt="" class="w-100 rounded">
-        </div>
-        <div class="col-sm-6 col-md-4 col-xl-3 px-1 mb-sm-2 mb-md-0 mb-2 mb-xl-2">
-            <img src="./IMAGES/image2.jpg" alt="" class="w-100 rounded">
-        </div>
-        <div class="col-sm-6 col-md-4 col-xl-3 px-1 mb-sm-2 mb-md-0 mb-2 mb-xl-2">
-            <img src="./IMAGES/image3.jpg" alt="" class="w-100 rounded">
-        </div>
-        <div class="col-sm-6 col-md-4 col-xl-3 px-1 mb-sm-2 mb-md-0 mb-2 mb-xl-2">
-            <img src="./IMAGES/image4.jpg" alt="" class="w-100 rounded">
-        </div>
-        <div class="col-sm-6 col-md-4 col-xl-3 d-none d-xl-block px-1 mb-sm-2 mb-md-0 mb-2 mb-xl-2">
-            <img src="./IMAGES/image5.jpg" alt="" class="w-100 rounded">
-        </div>
-        <div class="col-sm-6 col-md-4 col-xl-3 d-none d-xl-block px-1   mb-sm-2 mb-md-0 mb-2 mb-xl-2">
-            <img src="./IMAGES/image6.jpg" alt="" class="w-100 rounded">
-        </div>
-    </div>
-    <h3 class="font-weight-bolder themeFontColor" id="summer">Welcome Summer</h3>
-
-    <div class="row mx-n1 shadow-lg mb-3">
-        <div class="col-sm-6 col-md-4 col-xl px-1 mb-2  mb-sm-2 mb-md-0 mb-xl-2">
-            <img src="./IMAGES/image1.jpg" alt="" class="w-100 rounded">
-        </div>
-        <div class="col-sm-6 col-md-4 col-xl px-1  mb-2 mb-sm-2 mb-md-0 mb-xl-2">
-            <img src="./IMAGES/image2.jpg" alt="" class="w-100 rounded">
-        </div>
-        <div class="col-sm-6 col-md-4 col-xl px-1  mb-2 mb-sm-2 mb-md-0 mb-xl-2">
-            <img src="./IMAGES/image3.jpg" alt="" class="w-100 rounded">
-        </div>
-        <div class="col-sm-6 col-md-4 col-xl px-1 mb-2  mb-sm-2 mb-md-0 mb-xl-2">
-            <img src="./IMAGES/image4.jpg" alt="" class="w-100 rounded">
-        </div>
-        <div class="col-sm-6 col-md-4 col-xl d-none d-xl-block px-1 mb-2 mb-xl-2 mb-sm-2 mb-md-0">
-            <img src="./IMAGES/image5.jpg" alt="" class="w-100 rounded">
-        </div>
-        <div class="col-sm-6 col-md-4 col-xl d-none d-xl-block px-1  mb-2 mb-xl-2 mb-sm-2 mb-md-0">
-            <img src="./IMAGES/image6.jpg" alt="" class="w-100 rounded">
-        </div>
-    </div>
-
-    <h3 class="font-weight-bolder themeFontColor hidden-xs hidden-sm" id="dealDay">Deal of the day</h3>
-    <div class="row mx-n1 mb-2 hidden-xs hidden-sm">
-      <div class="col-md-8 col-xl-8 px-1 mb-3 mb-md-0 mb-xl-2">
-          <img src="./IMAGES/image7.jpg" alt="" class="w-100 rounded">
-      </div>
-      <div class="col-md-4 col-xl-4 px-1 mb-md-0 mb-2 mb-xl-2 ">
-        <div class="rounded fontColor flex-column d-flex justify-content-center bgcolor align-items-center">
-            <h3 class="font-italic  font-weight-bolder">The Unforgettable</h3>
-            <h1 class=" font-weight-bolder">Mauritius</h1>
-            <p class="text-center font-weight-bolder">Take a look at some of our featured resorts on Mauritius. Contact us to book your next magical holiday whether its a romantic break for two or an exciting, activity-filled family vacation.</p>
-        </div>
-      </div>
-  </div>
-</div>
-
-<footer class="bg-dark text-center text-white">
-    <div class="container p-4">
-      <section class="">
-        <form action="">
-          <div class="flex-column d-flex justify-content-center align-items-center">
-            <div class="col-auto">
-              <p class="pt-2">
-                <strong>Connect with us</strong>
-              </p>
+        <h3 class="font-weight-bolder themeFontColor" id="dealWeek">Deal of the Week</h3>
+        <div class="row mx-n1 mb-2 mb-3">
+            <div class="col-sm-6 col-md-4 col-xl-3 px-1 mb-3 mb-sm-2 mb-md-0 mb-xl-2">
+                <img src="./IMAGES/image1.jpg" alt="" class="w-100 rounded">
             </div>
-            <div class="col-md-5 col-12">
-              <div class="form-outline form-white mb-4">
-                <label class="form-label" for="form5Example21">
+            <div class="col-sm-6 col-md-4 col-xl-3 px-1 mb-sm-2 mb-md-0 mb-2 mb-xl-2">
+                <img src="./IMAGES/image2.jpg" alt="" class="w-100 rounded">
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3 px-1 mb-sm-2 mb-md-0 mb-2 mb-xl-2">
+                <img src="./IMAGES/image3.jpg" alt="" class="w-100 rounded">
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3 px-1 mb-sm-2 mb-md-0 mb-2 mb-xl-2">
+                <img src="./IMAGES/image4.jpg" alt="" class="w-100 rounded">
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3 d-none d-xl-block px-1 mb-sm-2 mb-md-0 mb-2 mb-xl-2">
+                <img src="./IMAGES/image5.jpg" alt="" class="w-100 rounded">
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3 d-none d-xl-block px-1   mb-sm-2 mb-md-0 mb-2 mb-xl-2">
+                <img src="./IMAGES/image6.jpg" alt="" class="w-100 rounded">
+            </div>
+        </div>
+        <h3 class="font-weight-bolder themeFontColor" id="summer">Welcome Summer</h3>
+
+        <div class="row mx-n1 shadow-lg mb-3">
+            <div class="col-sm-6 col-md-4 col-xl px-1 mb-2  mb-sm-2 mb-md-0 mb-xl-2">
+                <img src="./IMAGES/image1.jpg" alt="" class="w-100 rounded">
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl px-1  mb-2 mb-sm-2 mb-md-0 mb-xl-2">
+                <img src="./IMAGES/image2.jpg" alt="" class="w-100 rounded">
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl px-1  mb-2 mb-sm-2 mb-md-0 mb-xl-2">
+                <img src="./IMAGES/image3.jpg" alt="" class="w-100 rounded">
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl px-1 mb-2  mb-sm-2 mb-md-0 mb-xl-2">
+                <img src="./IMAGES/image4.jpg" alt="" class="w-100 rounded">
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl d-none d-xl-block px-1 mb-2 mb-xl-2 mb-sm-2 mb-md-0">
+                <img src="./IMAGES/image5.jpg" alt="" class="w-100 rounded">
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl d-none d-xl-block px-1  mb-2 mb-xl-2 mb-sm-2 mb-md-0">
+                <img src="./IMAGES/image6.jpg" alt="" class="w-100 rounded">
+            </div>
+        </div>
+
+        <h3 class="font-weight-bolder themeFontColor hidden-xs hidden-sm" id="dealDay">Deal of the day</h3>
+        <div class="row mx-n1 mb-2 hidden-xs hidden-sm dayh50">
+            <div class="col-md-8 col-xl-8 px-1 mb-3 mb-md-0 mb-xl-2 h-100">
+                <img src="./IMAGES/image7.jpg" alt="" class="w-100 h-100 rounded">
+            </div>
+            <div class="col-md-4 col-xl-4 px-1 mb-md-0 mb-2 mb-xl-2 h-100">
+                <div class="rounded fontColor flex-column d-flex h-100 justify-content-center bgcolor align-items-center">
+                    <h3 class="font-italic  font-weight-bolder">The Unforgettable</h3>
+                    <h1 class=" font-weight-bolder">Mauritius</h1>
+                    <p class="text-center font-weight-bolder">Take a look at some of our featured resorts on Mauritius. Contact us to book your next magical holiday whether its a romantic break for two or an exciting, activity-filled family vacation.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-center text-white">
+        <div class="container p-4">
+            <section class="">
+                <form action="">
+                    <div class="flex-column d-flex justify-content-center align-items-center">
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Connect with us</strong>
+                            </p>
+                        </div>
+                        <div class="col-md-5 col-12">
+                            <div class="form-outline form-white mb-4">
+                                <label class="form-label" for="form5Example21">
   +27 (0) 10 595 2145 
   <label class="form-label" for="form5Example21">
 </label>
-<label class="form-label" for="form5Example21">
+                                <label class="form-label" for="form5Example21">
     <label >+27 (0) 63 293 6725 </label>
-                </label>
-                <label class="form-label" for="form5Example21">Follow us on Facebook and Instagram for News, Reviews and the latest in holiday destinations.</label>
-              </div>
-            </div>
-            <div class="col-auto">
-              <button type="submit" class="btn btn-outline-light mb-4">
+                                </label>
+                                <label class="form-label" for="form5Example21">Follow us on Facebook and Instagram for News, Reviews and the latest in holiday destinations.</label>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-outline-light mb-4">
                 Subscribe
               </button>
-            </div>
-          </div>
-        </form>
-      </section>
-      <section class="mb-4">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-          repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-          eum harum corrupti dicta, aliquam sequi voluptate quas.
-        </p>
-      </section>
-    </div>
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        Copyright®
-      <a class="text-white" href="https://mdbootstrap.com/"> 2022 We Love Holidays</a>
-    </div>
-  </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crosscorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <section class="mb-4">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam eum harum corrupti dicta, aliquam sequi voluptate quas.
+                </p>
+            </section>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            Copyright®
+            <a class="text-white" href="https://mdbootstrap.com/"> 2022 We Love Holidays</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crosscorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+
 </html>
